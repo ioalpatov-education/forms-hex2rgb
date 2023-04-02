@@ -9,6 +9,7 @@
 
 .converter__input {
   background-color: #ffffff;
+  width: 220px;
 }
 
 .converter__output {
@@ -21,9 +22,13 @@
 }
 
 .output__text {
+  font-weight: 500;
   filter: invert(1) grayscale(1) contrast(9);
 }
 
 .MuiInputBase-input {
   text-align: center;
+  font-weight: bold !important;
+  letter-spacing: 3px !important;
+  font-size: 18px !important;
 }
