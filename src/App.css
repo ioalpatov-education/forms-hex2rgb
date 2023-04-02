@@ -1,0 +1,29 @@
+.converter {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.converter__input {
+  background-color: #ffffff;
+}
+
+.converter__output {
+  width: 220px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.output__text {
+  filter: invert(1) grayscale(1) contrast(9);
+}
+
+.MuiInputBase-input {
+  text-align: center;
+}
